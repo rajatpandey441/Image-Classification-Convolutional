@@ -2,6 +2,8 @@
 
 This project demonstrates the implementation of an image classification model using Keras, a high-level deep learning library. The model is trained to classify images into sad and happy faces. Happy images are classified as 0 and sad images are classified as 1. Hence predict function returning 0 to 0.5 is signalling to happy faces and 0.5 to 1 is signalling to sad faces. 
 
+The model is having one input layer, four hidden layer, and one output layer. Hidden layer is using 'relu' activation function and output layer is using sigmoid activation function. It is evident from plot performance section that loss is decreasing over time and accuracy is increasing. Also, model correctly predicted happy face as shown in last section of the notebook.
+
 **Project Structure**
 
 The project structure is organized as follows:
